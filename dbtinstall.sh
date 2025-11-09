@@ -1,8 +1,8 @@
 #!/bin/bash
 
-curl -LsSf https://astral.sh/uv/install.sh | sh
+apt-get install -y python3.12-venv
 
-apt-get install python3.12-venv
+curl -LsSf https://astral.sh/uv/install.sh | sh
 
 uv venv dbtpractice
 
